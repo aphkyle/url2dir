@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "url2dir",
+    "description": "direct downloads on specific sites to desired locations",
+    "version": "0.0",
+    "permissions": [
+        "downloads",
+        "storage"
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.png"
+    },
+	"background": {
+		"service_worker": "main.js"
+	},
+    "options_page": "options.html"
+  }
